@@ -27,7 +27,8 @@ nav{
     font-weight:900;
     font-size: 8px;
     color:#4E47FF;
-    margin-top: 10px;
+    margin-top: 18px;
+    margin-left: 25px;
     }
     
 
@@ -43,15 +44,17 @@ nav{
     background-color: #4E47FF;
     padding: 3px 8px;
     border-radius: 2px;
-    margin: 15px auto;
+    margin-right: 25px;
+    margin-top: 20px;
     border: none;
     
     
 }
-.banner-description{
-    font-weight: bold;
-    font-size: 8px;
+.banner-descriptions{
+    font-weight:bold;
+    font-size: 70px;
     color:#252432 ;
+
     
 }
 .btn-peimary-1{
@@ -72,4 +75,27 @@ text-align: center;
 
 background-size: 100% 100%;
 background-attachment: fixed;
+}
+.join{
+    text-align: center;
+    background-color:#E5E7FF;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+.join-description{
+    font-weight: 200;
+    font-size: 5px;
+}
+.join-title{
+    color: #252432;
+    font-weight: bold;
+    font-size: 8px;
+}
+.three-contain{
+    display: flex;
+    margin: 0px 50px;
+    justify-content: space-around;
+}
+.join-head{
+    color: #4E47FF;
 }
