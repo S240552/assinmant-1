@@ -1,101 +1,42 @@
 
-
-.open-sans-banner{
-  font-family: "Open Sans", sans-serif;
+.inter-font> {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
- font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-weight: 900;
+  font-style: normal;
 }
 
-/* nav styles */
-nav{
+.raleway-font> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.nav-bar{
+    max-width: 1440px;
+    height: 698px;
+    margin: 0 auto;
+    background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
     display: flex;
     justify-content: space-between;
-    
 }
-    
-
-.nav-title{
-    font-weight:900;
-    font-size: 8px;
-    color:#4E47FF;
-    margin-top: 18px;
-    margin-left: 25px;
-    }
-    
-
-
-
-
-    
-
-.btn-primary{
-    font-weight: bold;
-    font-size: 3px;
-    color: #FFFFFF;
-    background-color: #4E47FF;
-    padding: 3px 8px;
-    border-radius: 2px;
-    margin-right: 25px;
-    margin-top: 20px;
-    border: none;
-    
-    
-}
-.banner-descriptions{
-    font-weight:bold;
-    font-size: 70px;
-    color:#252432 ;
-
-    
-}
-.btn-peimary-1{
-background-color: #4E47FF;
-color: #FFFFFF;
-padding: 3px 5px;
-border-radius: 3px;
-border: none;
-font-weight: bold;
-font-size: 4px;
-
-}
-.banner{
-text-align: center;
-}
-.header{
-    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
-
-background-size: 100% 100%;
-background-attachment: fixed;
-}
-.join{
-    text-align: center;
-    background-color:#E5E7FF;
-    padding: 50px 80px;
-    border-radius: 24px;
-}
-.join-description{
-    font-weight: 200;
-    font-size: 5px;
-}
-.join-title{
-    color: #252432;
-    font-weight: bold;
-    font-size: 8px;
-}
-.three-contain{
-    display: flex;
-    margin: 0px 50px;
-    justify-content: space-around;
-}
-.join-head{
+.logo-title{
+    font-weight: 900;
+    font-size: 34px;
     color: #4E47FF;
+    padding: 50px 150px;
+}
+.btn{
+    border-radius: 10px;
+    font-weight:bold;
+    font-size: 16px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    width: 132px;
+    height: 48px;
+    border-color: #FFFFFF;
+
+}
+.btn-container{
+    padding: 80px 150px;
 }
